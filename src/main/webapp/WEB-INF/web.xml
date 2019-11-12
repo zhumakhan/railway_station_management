@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+    <param-name>dbUrl</param-name>
+    <param-value>jdbc:mysql://localhost:3306/mydb?allowMultiQueries=true</param-value>
+    <!-- <param-value>jdbc:mysql://turaqsharedbinstance.cboxtkfppbne.us-east-2.rds.amazonaws.com/mydb</param-value>-->
+</context-param>
+<context-param>
+    <param-name>dbUserName</param-name>
+    <param-value>root</param-value>
+</context-param>
+<context-param>
+    <param-name>dbPassword</param-name>
+    	<param-value>0990</param-value>
+    <!-- <param-value>xD_Tqc]t`K5)se#;</param-value> -->
+</context-param>
+<listener>
+    <listener-class>kz.edu.nu.cs.se.ContextListener</listener-class>
+</listener>
+</web-app>
